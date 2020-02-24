@@ -1,0 +1,128 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+html {overflow-x: none;}
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1400px;
+	margin: 0 auto;
+} 
+
+
+/* Holidays */
+.holidays__section {
+	background: url(../img/img1.jpg) center no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 900px;
+    background-position-x: -4px;
+}
+
+.content__wrapper {
+	width: 1050px;
+	margin: 0 auto;
+}
+
+.logo {
+    position: absolute;
+    top: 25%;
+    left:40%;
+    font-family: 'Helvetica';
+    color: #e95d5c;
+    font-size: 40px;
+}
+
+.holidays{
+	width: 70%;
+	height: 200px;	
+	position: absolute;
+    top: 41%;
+    text-align: center;	
+    background: #fff;
+    opacity: 0.5;	
+    border-radius: 20px;
+}
+
+.holidays__title{
+	padding-top: 50px;
+	font-size: 35px;
+	font-family: 'Helvetica';
+	color: #be0f34;
+	opacity: 1 !important;
+}
+
+/* Middle section */
+.middle__section {
+	padding: 45px;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Helvetica';
+}
+
+/* Gallery section */
+.gallery__section {
+    width: 1550px;
+	margin: 0 auto;
+	padding: 30px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.gallery__section__block {
+}
+
+.gallery__image {
+	width: 354px;
+	height: 354px;
+}
+
+.gallery__box {
+	width: 354px;
+	height: 200px;
+	background: #be0f34;
+	text-align: center;
+	padding-top: 30px;
+	color: #fff;
+}
+
+.btn {
+
+  background-color: #fff; /* Green */
+  border: 2px solid #be0f34;
+  color: #be0f34;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  position: relative;
+  left: 30%;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+/* End Section*/
+.end__section {
+	padding: 40px;
+	background: #be0f34;
+	text-align: center;
+	color: #fff;
+	font-family: 'Helvetica';
+}
+
+/* Footer */
+.footer {
+	padding: 40px;	
+	text-align: center;
+}
